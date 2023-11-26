@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": ["com.android.launcher.permission.INSTALL_SHORTCUT"]
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +34,8 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths":true
     }
   }
 }
