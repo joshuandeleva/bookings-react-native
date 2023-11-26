@@ -2,7 +2,6 @@
 
 # dependencies
 node_modules/
-.env
 # Expo
 .expo/
 dist/
@@ -39,3 +38,7 @@ yarn-error.*
 
 expo-env.d.ts
 # @end expo-cli
+
+#api keys
+
+.env
