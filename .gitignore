@@ -41,4 +41,4 @@ expo-env.d.ts
 
 #api keys
 
-.env
+.env*
