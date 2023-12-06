@@ -9,7 +9,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useOAuth } from '@clerk/clerk-expo';
 import { useRouter } from 'expo-router';
 
-WebBrowser.maybeCompleteAuthSession()
+// WebBrowser.maybeCompleteAuthSession()
 
 
 enum Strategy {
